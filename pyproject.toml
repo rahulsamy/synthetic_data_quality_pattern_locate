@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "rahulsamy-inferopt_jd448"
+name = "rahulsamy-synthetic_data_quality_pattern_locate"
 version = "0.1.0"
 description = "用一组明示的正则规则扫描输入，报告大模型推理优化工程师·合成数据的质量分水岭相关的命中行与片段"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://rahulsamy.github.io"
-Repository = "https://github.com/rahulsamy/inferopt_jd448"
-Issues = "https://github.com/rahulsamy/inferopt_jd448/issues"
+Repository = "https://github.com/rahulsamy/synthetic_data_quality_pattern_locate"
+Issues = "https://github.com/rahulsamy/synthetic_data_quality_pattern_locate/issues"
 
 [project.scripts]
-inferopt_jd448 = "inferopt_jd448:main"
+synthetic_data_quality_pattern_locate = "synthetic_data_quality_pattern_locate:main"
 
 [tool.setuptools]
-py-modules = ["inferopt_jd448"]
+py-modules = ["synthetic_data_quality_pattern_locate"]
